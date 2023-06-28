@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 99vh;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 320px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.256);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+.mainContainer:hover {
+  transform: scale(1.01);
+}
+
+.eachImage {
+  width: 200px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.eventImage {
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+}
